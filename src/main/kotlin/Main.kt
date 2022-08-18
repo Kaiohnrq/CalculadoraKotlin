@@ -37,7 +37,7 @@ fun calculadora(){
         println("$n1 + $n2 = ${soma(n1, n2)}")
         println("******************************************************")
         println("Digite 1 - Para fazer outra operação / 2 - Para sair!")
-        var resp = readln().toInt()
+        val resp = readln().toInt()
         if(resp == 1){
             calculadora()
         }
@@ -53,7 +53,7 @@ fun calculadora(){
         println("$n1 - $n2 = ${subtracao(n1, n2)}")
         println("******************************************************")
         println("Digite 1 - Para fazer outra operação / 2 - Para sair!")
-        var resp = readln().toInt()
+        val resp = readln().toInt()
         if(resp == 1){
             calculadora()
         }
@@ -69,7 +69,7 @@ fun calculadora(){
         println("$n1 x $n2 = ${multiplicacao(n1, n2)}")
         println("******************************************************")
         println("Digite 1 - Para fazer outra operação / 2 - Para sair!")
-        var resp = readln().toInt()
+        val resp = readln().toInt()
         if(resp == 1){
             calculadora()
         }
@@ -85,7 +85,7 @@ fun calculadora(){
         println("$n1 / $n2 = ${divisao(n1, n2)}")
         println("******************************************************")
         println("Digite 1 - Para fazer outra operação / 2 - Para sair!")
-        var resp = readln().toInt()
+        val resp = readln().toInt()
         if(resp == 1){
             calculadora()
         }
@@ -98,7 +98,7 @@ fun calculadora(){
         println("A raiz de $num é ${raizQuadrada(num)}")
         println("******************************************************")
         println("Digite 1 - Para fazer outra operação / 2 - Para sair!")
-        var resp = readln().toInt()
+        val resp = readln().toInt()
         if(resp == 1){
             calculadora()
         }
