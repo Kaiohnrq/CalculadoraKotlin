@@ -103,5 +103,9 @@ fun calculadora(){
             calculadora()
         }
     }
+        if(escolha != 1 && escolha != 2 && escolha != 3 && escolha != 4 && escolha != 5){
+            println("Opção invalida! Digite uma opção válida.")
+            calculadora()
+        }
 
 }
